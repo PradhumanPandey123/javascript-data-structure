@@ -1,0 +1,11 @@
+const arr=[];
+function rangeOfNumbers(startNum, endNum) {
+  if(startNum<endNum){
+   arr.push(startNum++);
+   rangeOfNumbers(startNum, endNum)
+  }
+  else{
+       arr.push(startNum);
+  }
+  return arr;
+};

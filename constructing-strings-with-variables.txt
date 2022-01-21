@@ -1,0 +1,3 @@
+// Only change code below this line
+const myName = "Pradhuman";
+const myStr = "My Name is "+myName+" and I am Well";

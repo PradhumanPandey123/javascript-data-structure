@@ -1,0 +1,5 @@
+function functionWithArgs(q,b){
+  console.log(q+b);
+}
+functionWithArgs(1,2);
+functionWithArgs(7,9);
